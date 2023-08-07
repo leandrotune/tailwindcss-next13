@@ -1,3 +1,11 @@
+import { SettingsTabs } from '@/components/SettingsTabs/Index'
+
 export default function Home() {
-  return <div className="flex w-4 p-2">Hello World!</div>
+  return (
+    <>
+      <h1 className="text-3xl font-medium text-zinc-900">Settings</h1>
+
+      <SettingsTabs />
+    </>
+  )
 }

@@ -10,7 +10,7 @@ export function Profile() {
         width={30}
         height={30}
         quality={100}
-        className="h-10 w-10 rounded-full"
+        className="h-10 w-10 rounded-full transition hover:scale-110"
       />
       <div className="flex flex-1 flex-col truncate">
         <span className="text-sm font-semibold text-zinc-700">
