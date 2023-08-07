@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <div className="grid min-h-screen grid-cols-app">
           <Sidebar />
 
-          <main className="mt-8 px-4">{children}</main>
+          <main className="mt-8 px-8">{children}</main>
         </div>
       </body>
     </html>
