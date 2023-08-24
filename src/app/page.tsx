@@ -150,40 +150,25 @@ export default function Home() {
                   <SelectItem text="md" value="Markdown" />
                 </Select>
 
-                <div className="flex items-center gap-1">
-                  <button
-                    type="button"
-                    className="mr-auto rounded p-2 hover:bg-zinc-50"
-                  >
+                <div className="flex items-center justify-evenly gap-1">
+                  <Button type="button" variant="ghost">
                     <Bold className="h-4 w-4 text-zinc-500" strokeWidth={3} />
-                  </button>
-                  <button
-                    type="button"
-                    className="mr-auto rounded p-2 hover:bg-zinc-50"
-                  >
+                  </Button>
+                  <Button type="button" variant="ghost">
                     <Italic className="h-4 w-4 text-zinc-500" strokeWidth={3} />
-                  </button>
-                  <button
-                    type="button"
-                    className="mr-auto rounded p-2 hover:bg-zinc-50"
-                  >
+                  </Button>
+                  <Button type="button" variant="ghost">
                     <Link className="h-4 w-4 text-zinc-500" strokeWidth={3} />
-                  </button>
-                  <button
-                    type="button"
-                    className="mr-auto rounded p-2 hover:bg-zinc-50"
-                  >
+                  </Button>
+                  <Button type="button" variant="ghost">
                     <List className="h-4 w-4 text-zinc-500" strokeWidth={3} />
-                  </button>
-                  <button
-                    type="button"
-                    className="mr-auto rounded p-2 hover:bg-zinc-50"
-                  >
+                  </Button>
+                  <Button type="button" variant="ghost">
                     <ListOrdered
                       className="h-4 w-4 text-zinc-500"
                       strokeWidth={3}
                     />
-                  </button>
+                  </Button>
                 </div>
               </div>
               <TextArea
